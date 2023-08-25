@@ -36,7 +36,7 @@ waffle(cyl, stacked=FALSE, gap=1)
 legend("top", horiz=TRUE, bty="n", inset=0.9, xpd=TRUE,
     legend=names(cyl), cex=2,
     fill=palette.colors(length(cyl), "Set 1"), border=NA,
-    title="Number of cylinders\n in 'mtcars'", title.font=2, title.cex=1.5)
+    title="Number of cylinders\n in 'mtcars'")
 
 ## -----------------------------------------------------------------------------
 par(mar=c(4,0,0,0))
@@ -45,7 +45,7 @@ waffle(cyl, stacked=FALSE, gap=1, f=rcpoly, n=as.numeric(names(cyl)))
 legend("top", horiz=TRUE, bty="n", inset=0.9, xpd=TRUE,
     legend=names(cyl), cex=2,
     fill=palette.colors(length(cyl), "Set 1"), border=NA,
-    title="Number of cylinders\n in 'mtcars'", title.font=2, title.cex=1.5)
+    title="Number of cylinders\n in 'mtcars'")
 
 ## -----------------------------------------------------------------------------
 autotext = function(x, y, labels, d=0.9, ...){
@@ -59,7 +59,7 @@ waffle(cyl, stacked=FALSE, gap=1, f=autotext, labels=names(cyl))
 legend("top", horiz=TRUE, bty="n", inset=0.9, xpd=TRUE,
     legend=names(cyl), cex=2,
     fill=palette.colors(length(cyl), "Set 1"), border=NA,
-    title="Number of cylinders\n in 'mtcars'", title.font=2, title.cex=1.5)
+    title="Number of cylinders\n in 'mtcars'")
 
 ## ---- include=FALSE-----------------------------------------------------------
 par(mar=rep(0,4))

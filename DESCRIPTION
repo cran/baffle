@@ -1,6 +1,6 @@
 Package: baffle
 Title: Make Waffle Plots with Base Graphics
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: 
     person(given = "Jiří",
            family = "Moravec",
@@ -14,7 +14,7 @@ Description: Waffle plots are rectangular pie charts that represent a quantity o
     proportional ratios.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 VignetteBuilder: knitr
 Imports: grDevices
 Suggests: testthat (>= 3.0.0), knitr, rmarkdown, png
@@ -23,8 +23,8 @@ URL: https://j-moravec.github.io/baffle/,
         https://github.com/j-moravec/baffle
 BugReports: https://github.com/j-moravec/baffle/issues
 NeedsCompilation: no
-Packaged: 2022-10-19 22:52:49 UTC; jmoravec
+Packaged: 2023-08-25 12:20:05 UTC; jmoravec
 Author: Jiří Moravec [aut, cre]
 Maintainer: Jiří Moravec <jiri.c.moravec@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-10-19 23:35:11 UTC
+Date/Publication: 2023-08-25 12:40:02 UTC
